@@ -1,0 +1,182 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2e3440; /* Nord 0 */
+    color: #d8dee9; /* Nord 4 */
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3b4252;
+    color: #d8dee9;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: #d8dee9;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Seção de Introdução */
+.intro {
+    background: #3b4252;
+    color: #d8dee9;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #5e81ac;
+    color: #d8dee9;
+    text-decoration: none;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+}
+
+/* Seção de Projetos */
+.projects {
+    padding: 4em 0;
+    background: #d8dee9;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #eee;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.project a {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.project h3 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    color: #2e3440;
+}
+
+.project p {
+    font-size: 1em;
+    margin-top: 0.5em;
+    color: #2e3440;
+}
+
+/* Seção de Contato */
+.contact {
+    background: #3b4252;
+    color: #d8dee9;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 0.3em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #5e81ac;
+    color: #d8dee9;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background: #3b4252;
+    color: #d8dee9;
+    padding: 1em 0;
+    text-align: center;
+}
